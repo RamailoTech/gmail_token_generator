@@ -7,7 +7,7 @@ from googleapiclient.discovery import build
 from googleapiclient.errors import HttpError
 from path_setup import input_dir
 
-SCOPES = ["https://www.googleapis.com/auth/gmail.send","https://www.googleapis.com/auth/gmail.readonly","https://www.googleapis.com/auth/calendar", "https://www.googleapis.com/auth/calendar.readonly"]
+SCOPES = ["https://mail.google.com/", "https://www.googleapis.com/auth/gmail.modify"]
 
 
 def generate_token():
